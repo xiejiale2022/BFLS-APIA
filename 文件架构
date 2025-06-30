@@ -1,0 +1,11 @@
+fisco_fl/
+├── contracts/               # 智能合约
+│   ├── FLManager.sol        # 联邦学习管理合约
+│   └── KeyManager.sol       # 密钥管理合约
+├── sdk/                     # Python SDK交互
+│   ├── fisco_client.py      # FISCO BCOS客户端
+│   ├── edge_device.py       # 边缘设备类
+│   ├── edge_server.py       # 边缘服务器类
+│   └── trusted_node.py      # 可信节点类
+├── config.ini               # 配置文件
+└── main.py                  # 主程序
